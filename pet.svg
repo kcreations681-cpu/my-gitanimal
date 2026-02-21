@@ -24,6 +24,6 @@
 
       <rect x="60" y="120" width="160" height="100" fill="#ff9a9e" stroke="#5d4037" stroke-width="4" rx="10"/>
       <path d="M60,120 L30,90 M220,120 L250,90" stroke="#5d4037" stroke-width="4"/> <rect x="240" y="140" width="140" height="40" rx="10" fill="#f1f2f6"/>
-      <text x="310" y="165" font-family="Arial" font-size="12" text-anchor="middle" fill="#2f3542">Commits Today: 12</text>
+      <text x="310" y="165" font-family="Arial" font-size="12" text-anchor="middle" fill="#2f3542">Commits Today: 18</text>
     </svg>
     
