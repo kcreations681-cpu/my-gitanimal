@@ -1,0 +1,28 @@
+name: Update My Gitanimal
+on:
+  schedule:
+    - cron: '0 * * * *' # Runs every hour
+  workflow_dispatch: # Allows you to run it manually
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: pip install requests
+      - name: Run script
+        run: python pet.py
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and Push pet.svg
+        run: |
+          git config --global user.name "Gitanimal-Bot"
+          git config --global user.email "bot@github.com"
+          git add pet.svg
+          git commit -m "Pet evolved!" || exit 0
+          git push
