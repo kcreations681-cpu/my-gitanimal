@@ -1,0 +1,8 @@
+
+    <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="80" fill="#9b9b9b" stroke="black" stroke-width="3"/>
+      <text x="100" y="95" font-family="Arial" font-size="25" text-anchor="middle">- -</text>
+      <text x="100" y="130" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Sleeping...</text>
+      <text x="100" y="155" font-family="Arial" font-size="12" text-anchor="middle">Commits today: 0</text>
+    </svg>
+    
