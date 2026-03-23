@@ -18,12 +18,12 @@
 
       <g class="cat-head">
         <path d="M80,120 Q80,60 140,60 Q200,60 200,120" fill="white" stroke="#5d4037" stroke-width="3"/>
-        <path d="M80,80 L60,40 L110,65 Z" fill="white" stroke="#5d4037" stroke-width="3"/> <path d="M200,80 L220,40 L170,65 Z" fill="white" stroke="#5d4037" stroke-width="3"/> <text x="140" y="105" font-size="25" text-anchor="middle">◕ ‿ ◕</text> </g>
+        <path d="M80,80 L60,40 L110,65 Z" fill="white" stroke="#5d4037" stroke-width="3"/> <path d="M200,80 L220,40 L170,65 Z" fill="white" stroke="#5d4037" stroke-width="3"/> <text x="140" y="105" font-size="25" text-anchor="middle">◕ ◡ ◕</text> </g>
 
       <path class="arm" d="M85,110 Q60,90 50,110 T75,130" fill="white" stroke="#5d4037" stroke-width="3"/>
 
-      <rect x="60" y="120" width="160" height="100" fill="#ff9a9e" stroke="#5d4037" stroke-width="4" rx="10"/>
+      <rect x="60" y="120" width="160" height="100" fill="#f6d365" stroke="#5d4037" stroke-width="4" rx="10"/>
       <path d="M60,120 L30,90 M220,120 L250,90" stroke="#5d4037" stroke-width="4"/> <rect x="240" y="140" width="140" height="40" rx="10" fill="#f1f2f6"/>
-      <text x="310" y="165" font-family="Arial" font-size="12" text-anchor="middle" fill="#2f3542">Commits Today: 15</text>
+      <text x="310" y="165" font-family="Arial" font-size="12" text-anchor="middle" fill="#2f3542">Commits Today: 4</text>
     </svg>
     
